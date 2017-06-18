@@ -1,4 +1,3 @@
-
 use rocket::Request;
 use rocket::request::{Outcome, FromRequest};
 use rocket::Outcome::{Success, Failure};
