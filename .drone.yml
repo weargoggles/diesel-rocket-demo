@@ -1,8 +1,5 @@
-kind: pipeline
-name: default
-
-steps:
-- name: build
-  image: rust
-  commands:
-  - cargo build
+pipeline:
+  build:
+    image: rust
+    commands:
+    - cargo build
